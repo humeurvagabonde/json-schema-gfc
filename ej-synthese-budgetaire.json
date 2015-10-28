@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Ej - Synthese budgetaire",
+    "description": "Ej - Synthese budgetaire des repartitions",
+    "type": "object",
+    "properties": {
+        "totalHt": {
+            "description": "Total HT",
+            "type": "integer"
+        },
+        "totalTtc": {
+            "description": "Total TTC",
+            "type": "integer"
+        },
+        "totalBudgetaire": {
+            "description": "Total Budgetaire",
+            "type": "integer"
+        }
+    },
+    "required": ["totalHt", "totalTtc", "totalBudgetaire"]
+}
